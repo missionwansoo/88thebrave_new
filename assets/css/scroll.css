@@ -1,0 +1,29 @@
+.horizontal-scroll__section {
+    position: relative;
+    height: 500px;
+}
+.horizontal-scroll__wrapper {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 75vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.horizontal-scroll__content {
+    display: flex;
+    height: 100vh;
+    padding-top: 80px;
+    will-change: transform;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+.rd4{
+    font-size: 36px;
+    padding-top: 120px;
+    padding-left: 200px;
+}
